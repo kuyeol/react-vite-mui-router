@@ -7,7 +7,7 @@ function Home() {
 <div>
       <Typography variant="h1">Home Page</Typography>
       <Typography variant="h6">Count</Typography>
-      <Typography variant="h1">Count</Typography>
+      <Typography variant="h1">Couggggggggnt</Typography>
       <Typography variant="h6">Count</Typography>
       <Typography variant="h6">Count</Typography>
       <Typography variant="h1">Count</Typography>

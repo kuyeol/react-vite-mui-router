@@ -63,26 +63,11 @@ function Navbar() {
         </Toolbar>
       </AppBar>
 
-      <ListItemText
-                  primary="Build"
-                  primaryTypographyProps={{
-                    fontSize: 15,
-                    fontWeight: 'medium',
-                    lineHeight: '20px',
-                    mb: '2px',
-                  }}
-                  secondary="Authentication, Firestore Database, Realtime Database, Storage, Hosting, Functions, and Machine Learning"
-                  secondaryTypographyProps={{
-                    noWrap: true,
-                    fontSize: 12,
-                    lineHeight: '16px',
-                    color: open ? 'rgba(0,0,0,0)' : 'rgba(255,255,255,0.5)',
-                  }}
-                  sx={{ my: 0 }}
-                />
+    
 
-      <Drawer  open={open} onClose={toggleDrawer}>
-        <List sx={{ Width: 250, marginTop: 0, marginRight: 2, marginLeft: 0 }}>
+      <Drawer  open={open} onClose={toggleDrawer} >
+    
+        <List sx={{ Width: 250, marginTop: 0, marginRight: 2, marginLeft: 1 }}>
           <ListItem disablePadding>
             <ListItemButton >
               <IconButton color="inherit" edge="start" onClick={toggleDrawer}>
